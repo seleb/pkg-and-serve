@@ -1,0 +1,7 @@
+* {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body::after {
+	content: "here's a pseudo-element to show that css loaded";
+}
