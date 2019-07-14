@@ -1,0 +1,24 @@
+{
+  "name": "hs-pgk-app",
+  "version": "1.0.0",
+  "description": "boilerplate for packaging http-server with an app in an exe",
+  "main": "server.js",
+  "bin": "server.js",
+  "pkg": {
+    "assets": [
+      "app/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "pkg . --out-path build"
+  },
+  "author": "Sean S. LeBlanc <sean.s.leblanc@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^4.4.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "open": "^6.4.0"
+  }
+}
