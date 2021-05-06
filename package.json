@@ -15,7 +15,7 @@
   "author": "Sean S. LeBlanc <sean.s.leblanc@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "pkg": "^4.4.0"
+    "pkg": "^4.5.1"
   },
   "dependencies": {
     "http-server": "^0.11.1",
