@@ -5,7 +5,8 @@ const server = createServer({
 	root: __dirname + '/app',
 });
 const host = 'localhost';
-server.listen(0, host, undefined, function() {
+const port = 0;
+server.listen(port, host, undefined, function() {
 	const url = `http://${host}:${this.address().port}/index.html`;
 	console.log(`Running on ${url}`);
 	open(url);
