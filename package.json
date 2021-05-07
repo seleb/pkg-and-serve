@@ -5,8 +5,9 @@
   "main": "server.js",
   "bin": "server.js",
   "pkg": {
-    "assets": [
-      "app/**/*"
+    "assets": "app/**/*",
+    "targets": [
+      "x64"
     ]
   },
   "scripts": {
