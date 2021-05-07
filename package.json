@@ -6,12 +6,13 @@
   "bin": "server.js",
   "pkg": {
     "assets": "app/**/*",
+    "outputPath": "build",
     "targets": [
       "x64"
     ]
   },
   "scripts": {
-    "build": "pkg . --out-path build"
+    "build": "pkg ."
   },
   "author": "Sean S. LeBlanc <sean.s.leblanc@gmail.com>",
   "license": "MIT",
