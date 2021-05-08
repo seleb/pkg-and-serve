@@ -1,0 +1,12 @@
+{
+	"name": "hs-pgk-app",
+	"version": "1.0.0",
+	"bin": "server.js",
+	"pkg": {
+		"assets": "app/**/*",
+		"outputPath": "build",
+		"targets": [
+			"x64"
+		]
+	}
+}
