@@ -1,7 +1,7 @@
 {
   "name": "hs-pgk-app",
   "version": "1.0.0",
-  "description": "boilerplate for packaging http-server with an app in an exe",
+  "description": "boilerplate for packaging a static server with an app in an exe",
   "main": "server.js",
   "bin": "server.js",
   "pkg": {

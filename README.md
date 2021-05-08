@@ -1,12 +1,12 @@
-# hs-pkg-app
+# `hs-pkg-app`
 
-boilerplate for packaging http-server with an app in an exe
+boilerplate for packaging a static server with an app in an exe
 
 ## how to
 
 1. clone
-1. `npm i`
-1. replace contents of `./app` with your app
-1. update `name` in `package.json`
-1. `npm run build`
-1. self-contained build outputs will be in `./build`
+2. `npm i`
+3. replace contents of `./app` with your app
+4. update `name` in `package.json`
+5. `npm run build`
+6. self-contained build outputs will be in `./build`
