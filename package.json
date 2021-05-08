@@ -20,7 +20,8 @@
     "pkg": "^5.1.0"
   },
   "dependencies": {
-    "http-server": "^0.12.3",
-    "open": "^8.0.7"
+    "express": "^4.17.1",
+    "open": "^8.0.7",
+    "portfinder": "^1.0.28"
   }
 }
