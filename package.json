@@ -1,9 +1,9 @@
 {
-  "name": "hs-pgk-app",
+  "name": "pkg-and-serve",
   "version": "1.0.0",
   "description": "boilerplate for packaging a static server with an app in an exe",
   "bin": {
-    "hs-pkg-app": "bin/hs-pkg-app.js"
+    "pkg-and-serve": "bin/pkg-and-serve.js"
   },
   "scripts": {
     "build": "pkg pkg.config.json"
