@@ -2,7 +2,6 @@ const portfinder = require('portfinder');
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
-const pkg = require('./package.json');
 
 async function main() {
 	const port =
