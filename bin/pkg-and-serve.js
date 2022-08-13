@@ -21,7 +21,7 @@ const argv = yargs(hideBin(process.argv))
 	.help().argv;
 const source = argv.source ? path.join(process.cwd(), argv.source) : process.cwd();
 const output = argv.output ? path.join(process.cwd(), argv.output) : process.cwd();
-fse.rmdirSync(path.join(__dirname, '..', 'app'), { recursive: true });
+fse.rmSync(path.join(__dirname, '..', 'app'), { recursive: true });
 fse.copySync(source, path.join(__dirname, '..', 'app'));
 execSync('npm run build', {
 	cwd: path.join(__dirname, '..'),
