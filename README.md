@@ -9,7 +9,7 @@ Note that this is most useful for quickly creating a shareable file for testing/
 ### As command-line tool
 
 ```sh
-npx github:seleb/pkg-and-serve [input] [output]
+npx pkg-and-serve [input] [output]
 ```
 
 ### As boilerplate project
