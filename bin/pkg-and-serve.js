@@ -37,6 +37,8 @@ execSync('npm run build', {
 	stdio: 'inherit',
 });
 fse.copySync(path.join(__dirname, '..', config.pkg.outputPath), output);
-fse.moveSync(path.join(output, `${config.name}.exe`), path.join(output, `${title}.exe`), { overwrite: true });
+if (config.name !== title) {
+	fse.moveSync(path.join(output, `${config.name}.exe`), path.join(output, `${title}.exe`), { overwrite: true });
+}
 const exe = path.join(output, `${title}.exe`);
 console.log(`Packaged "${source}" to "${exe}"`);
