@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/seleb/pkg-and-serve/compare/v1.1.1...v1.1.2) (2022-08-14)
+
+
+### Bug Fixes
+
+* saving without default title ([50e5d94](https://github.com/seleb/pkg-and-serve/commit/50e5d940eca1d385f848a58d1d5d9d72f3044276))
+
 ## [1.1.1](https://github.com/seleb/pkg-and-serve/compare/v1.1.0...v1.1.1) (2022-08-14)
 
 
