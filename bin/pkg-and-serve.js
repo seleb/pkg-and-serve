@@ -22,6 +22,11 @@ const argv = yargs(hideBin(process.argv))
 const source = argv.source ? path.join(process.cwd(), argv.source) : process.cwd();
 const output = argv.output ? path.join(process.cwd(), argv.output) : process.cwd();
 fse.rmSync(path.join(__dirname, '..', 'app'), { recursive: true });
+
+if (!fse.existsSync(path.join(source, 'index.html'))) {
+	console.warn(`No "index.html" file found at the source "${source}". Your app will not have anything to show by default when opened.`);
+}
+
 fse.copySync(source, path.join(__dirname, '..', 'app'));
 execSync('npm run build', {
 	cwd: path.join(__dirname, '..'),
