@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/seleb/pkg-and-serve/compare/v1.1.0...v1.1.1) (2022-08-14)
+
+
+### Bug Fixes
+
+* undefined app title ([5a4dc47](https://github.com/seleb/pkg-and-serve/commit/5a4dc47055eda9509421179be71d5af58b07c530))
+
 # [1.1.0](https://github.com/seleb/pkg-and-serve/compare/v1.0.0...v1.1.0) (2022-08-14)
 
 
